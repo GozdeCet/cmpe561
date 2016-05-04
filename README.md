@@ -2,3 +2,5 @@
 
 
 deneme
+
+    python ghg
