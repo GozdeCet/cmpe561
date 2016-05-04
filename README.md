@@ -3,18 +3,20 @@
 
 This project trains a HMM POS Tagger by evaluating the transition and emission probabilities according to a training file
 and tags a test file by using these probabilities.
-It also evaluate the performance of the tagger.
+It also evaluates the performance of the tagger.
 
 To train the tagger, run the code as :
 
     python train_hmm_tagger.py training_file.txt --cpostag
 
-this command train the tagger by using cpostag.
+This command takes the training file as an argument and trains the tagger by using cpostag.
 
 
 To train the tagger by using postag, please run the code :
 
     python train_hmm_tagger.py training_file.txt --postag
+
+This command takes the training file as an argument and trains the tagger by using postag.
 
 After the training, the code evaluates a 'args.txt' file (to remember the user's preference of cpostag/postag), so for the next steps, 
 please be sure that this text file and the next codes are in the same directory.
