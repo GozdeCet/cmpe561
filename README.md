@@ -34,6 +34,6 @@ To evaluate the performance of the tagger, run the code as :
 
     python evaluate_hmm_tagger.py output_file.txt gold.txt
 
-This command takes the output_file.txt from the previous step and a gold.txt and generates 'accuracy_and_confisuon.txt' to compare the output of the tagger with the gold standard for the test data.
+This command takes the output_file.txt from the previous step and a gold.txt and as arguments and generates 'accuracy_and_confisuon.txt' to compare the output of the tagger with the gold standard for the test data.
 In the 'accuracy_and_confisuon.txt' file, you can find the overall accuracy of the tagger, individual accuracy for the each tag and confusion matrix.
 
